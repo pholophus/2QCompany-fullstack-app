@@ -40,11 +40,11 @@ Describe the high-level architecture of your project. Include information about 
 |-- ...
 ```
 
- Custom Repositories
+### Custom Repositories
 
 A custom directory named "Repositories" has been added to the application structure. This directory is intended to house the majority of the business logic, encapsulating the application's specific requirements. The purpose is to prevent cluttering controllers with extensive business logic, allowing controllers to focus on handling requests and responses.
 
-How to Use Repositories
+### How to Use Repositories
 
 
 Controllers should follow a pattern where they primarily handle incoming requests, extract relevant data, and then delegate the business logic to the appropriate repository. This separation helps maintain a clean and organized codebase.

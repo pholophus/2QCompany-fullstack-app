@@ -13,11 +13,11 @@ class CompaniesTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('companies')->insert([
-            'name' => 'Your Company',
-            'email' => 'admin@admin.com',
-            'logo' => '', // You may want to provide a default logo
-            'website' => 'https://yourcompany.com',
-        ]);
+        // DB::table('companies')->insert([
+        //     'name' => 'Your Company',
+        //     'email' => 'admin@admin.com',
+        //     'logo' => '', // You may want to provide a default logo
+        //     'website' => 'https://yourcompany.com',
+        // ]);
     }
 }

@@ -80,7 +80,7 @@ class YourController extends Controller
 }
 ```
 
-Adding Business Logic
+### Adding Business Logic
 
 Repositories within the "Repositories" directory are expected to contain the business logic. Each repository should have methods dedicated to specific tasks, ensuring a clear separation of concerns.
 
@@ -100,11 +100,15 @@ class YourRepository
 }
 ```
 
+Repositories within the "Repositories" directory are expected to contain the business logic. Each repository should have methods dedicated to specific tasks, ensuring a clear separation of concerns.
+
+### 404 page handler
+Added handler for 404 page
+
+
 ## Database
 
 ### Database Schema
-
-Provide a visual representation or textual description of your database schema.
 
 ```plaintext
 users
@@ -122,8 +126,6 @@ company
 ```
 
 ## Libraries and Dependencies
-
-List and briefly describe any external libraries, packages, or dependencies your project relies on.
 
 - **Laravel Version**: 8.x
 - **Database**: MySQL.
@@ -143,6 +145,8 @@ npm install
 
 # Set up the database
 php artisan migrate --seed
+
+npm run serve
 
 # Start the development server
 php artisan serve
